@@ -1,31 +1,47 @@
+/*
+COLOR PALETTE
+https://coolors.co/e8f1f2-b3efb2-7a9e7e-31493c-001a23
+# E8F1F2 - Alice Blue
+# B3EFB2 - Celadon
+# 7A9E7E - Cambridge blue
+# 31493C - Brunswick green
+# 001A23 - Rich black
+*/
+
+/* Global styles
+-----------------------*/
+body {
+    color: #001A23;  /* text color black */
+}
 img {
     width: 300px;
 }
 
-* {
-    color: red;
+ /* Profile
+-----------------------*/
+header {
+    background-color: #E8F1F2;
 }
 
-h1 {
-    color: blue;
+ /* Projects
+ -----------------------*/
+ .projects {
+    background-color: #B3EFB2;
+ }
+
+ /* Work Experience
+ -----------------------*/
+ .work-experience {
+    background-color: #7A9E7E;
+ }
+
+ /* Education
+ -----------------------*/
+
+ /* Contact Info
+ -----------------------*/
+footer {
+    background-color: #31493C;
+    color: white;
 }
-
-h2 {
-    color: pink;
-}
-
- .example {
-    color: orange;
- }
-
- .example2 {
-    background: black
- }
-
- .example.example2 {
-    font-size: 50px;
- }
-
- #example {
-    font-size: 100px;
- }
+ 
