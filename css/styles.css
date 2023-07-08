@@ -12,9 +12,28 @@ https://coolors.co/e8f1f2-b3efb2-7a9e7e-31493c-001a23
 -----------------------*/
 body {
     color: #001A23;  /* text color black */
+    margin: 0; /* removes space of body */
+    padding: 0; /* removes padding around all content of page */
 }
 img {
     width: 300px;
+}
+
+a {
+    color: #001A23;
+}
+
+a:hover {
+    text-decoration: none; /* removes underline when hovering over link */
+}
+
+h2 {
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
  /* Profile
@@ -27,6 +46,23 @@ header {
  -----------------------*/
  .projects {
     background-color: #B3EFB2;
+ }
+
+ .projects a {
+    color:darkmagenta;
+ }
+
+ .projects .btn {
+    color: skyblue;
+    background-color: #001A23;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+ }
+
+ .projects btn:hover {
+    background: rgba(0,26,35, 80%);
  }
 
  /* Work Experience
