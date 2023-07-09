@@ -14,6 +14,9 @@ body {
     color: #001A23;  /* text color black */
     margin: 0; /* removes space of body */
     padding: 0; /* removes padding around all content of page */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img {
     width: 300px;
@@ -27,7 +30,18 @@ a:hover {
     text-decoration: none; /* removes underline when hovering over link */
 }
 
+h1 {
+    font-size: 100px;
+    line-height: 1; /* overwrites previous line-height value */
+}
+
 h2 {
+    font-size: 45px;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400px;
     margin: 0;
 }
 .content-wrap {
